@@ -4,52 +4,52 @@ CODEBOOK
 
 test (data frame)
 
-subject_test  -  all observations from subject_test.txt, volunteers’ id
+  subject_test  -  all observations from subject_test.txt, volunteers’ id
 
-X_test  -  all observations from X_test.txt, test set
+  X_test  -  all observations from X_test.txt, test set
 
-y_test  -  all observations from y_test.txt, test labels
+  y_test  -  all observations from y_test.txt, test labels
 
 train (data frame)
 
-subject_train  -  all observations from subject_train.txt, volunteers’ id
+  subject_train  -  all observations from subject_train.txt, volunteers’ id
 
-X_train  -  all observations from X_train.txt, training set
+  X_train  -  all observations from X_train.txt, training set
 
-y_train  -  all observations from y_train.txt, training labels
+  y_train  -  all observations from y_train.txt, training labels
 
 table (data frame) - joint data frame of test and train
 
-table_new (data frame)
+  table_new (data frame)
 
-subject - volunteers’ id, ranges from 1 to 30
+  subject - volunteers’ id, ranges from 1 to 30
 
-activities - activities performed, including
+  activities - activities performed, including
 
-1. WALKING
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING
+  1. WALKING
+  2. WALKING_UPSTAIRS
+  3. WALKING_DOWNSTAIRS
+  4. SITTING
+  5. STANDING
+  6. LAYING
 
-dataset - name of the original dataset, test or train
+  dataset - name of the original dataset, test or train
 
-mean - mean value of the 561-vector with time and frequency domain variables
+  mean - mean value of the 561-vector with time and frequency domain variables
 
-std - standard deviation value of the 561-vector with time and frequency domain variables
+  std - standard deviation value of the 561-vector with time and frequency domain variables
 
 tidydata (data frame)
 
-subject - volunteers’ id, ranges from 1 to 30
+  subject - volunteers’ id, ranges from 1 to 30
 
-activities - activities performed, including
+  activities - activities performed, including
 
-1. WALKING
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING
+  1. WALKING
+  2. WALKING_UPSTAIRS
+  3. WALKING_DOWNSTAIRS
+  4. SITTING
+  5. STANDING
+  6. LAYING
 
-mean - average of each variable for each activity and each subject.
+  mean - average of each variable for each activity and each subject.
