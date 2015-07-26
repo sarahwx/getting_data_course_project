@@ -32,13 +32,12 @@ The script has combined training and test data sets with 10299 observations. Var
   4. SITTING
   5. STANDING
   6. LAYING
-   
-  
-  dataset - name of the original dataset, test or train
 
-  mean - mean value of the 561-vector with time and frequency domain variables
+dataset - name of the original dataset, test or train
 
-  std - standard deviation value of the 561-vector with time and frequency domain variables
+mean - mean value of the 561-vector with time and frequency domain variables
+
+std - standard deviation value of the 561-vector with time and frequency domain variables
 
 ###tidydata (data frame)
 
