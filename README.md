@@ -32,7 +32,7 @@ The script has combined training and test data sets with 10299 observations. Var
   4. SITTING
   5. STANDING
   6. LAYING
-  7. 
+   
   
   dataset - name of the original dataset, test or train
 
