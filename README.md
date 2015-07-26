@@ -1,7 +1,7 @@
 The script has combined training and test data sets with 10299 observations. Variables include 30 volunteers, the six activities they performed, and a 561-feature vector with time and frequency domain variables. The goal of the analysis script is to find out the mean value of each observation, and group them by volunteers and their activities. The final tidy data data frame has cleaned and grouped the original data frame into 180 observations.
 
-#CODEBOOK
-##test (data frame)
+CODEBOOK
+test (data frame)
 subject_test  -  all observations from subject_test.txt, volunteers’ id
 X_test  -  all observations from X_test.txt, test set
 y_test  -  all observations from y_test.txt, test labels
